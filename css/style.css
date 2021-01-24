@@ -1,0 +1,73 @@
+/* regole generali */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+
+/* regole titolo */
+
+.title{
+  background-color: #00000090;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-size: calc( 20px + 2vw );
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50% , -50%);
+  color: white;
+  padding: 10px;
+}
+
+.title a{
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+.title a:hover{
+  color: black;
+}
+
+/* regole blocchi */
+.container{
+  height: 100vh;
+  position: relative;
+  border-bottom: 5px solid black;
+}
+
+main *{
+  border-radius: 20px 20px 20px 20px;
+}
+
+.container.roma{
+  background-image: url('../img/roma.jpg');
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.container.napoli{
+  background-image: url('../img/napoli.jpg');
+  background-size: cover;
+  opacity: 1.0;
+}
+
+.container.firenze{
+  background-image: url('../img/firenze.jpg');
+  background-size: cover;
+  opacity: 1.0;
+}
+
+/* regole layover*/
+.layover{
+  position: absolute;
+  top: 0;
+  left:0;
+  right:0;
+  bottom: 0;
+}
